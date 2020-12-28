@@ -23,3 +23,22 @@ python manage.py createsuperuser
 Criar app
 python manage.py startapp nome_do_app, no projeto foi criado o app website
 
+Criar um git repositório
+git init
+
+Mostrar histórico do repositório
+git status
+
+Fazer um commit
+git add .
+git commit -m "Descriver o que está sendo atualizado"
+
+
+Add remote
+git add origin e o endereço do seu repositório no git
+git add branch -M main
+git push -u origin main
+
+Listar branchs
+git brach -v
+
